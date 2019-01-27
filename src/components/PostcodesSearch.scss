@@ -1,0 +1,11 @@
+@import "~purecss/build/forms";
+
+.basicForm {
+   @extend .pure-form;
+}
+
+.basicInput {
+  @extend .pure-input-rounded;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}

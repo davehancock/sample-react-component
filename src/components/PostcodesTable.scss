@@ -1,0 +1,14 @@
+@import "~purecss/build/tables";
+
+$primary-color: #d8faff;
+$secondary-color: #f9fffd;
+
+.basicTable thead {
+  background-color: $primary-color;
+}
+
+.basicTable {
+  @extend .pure-table, .pure-table-bordered;
+  font-family: "Courier New", Courier, monospace;
+  background-color: $secondary-color;
+}
